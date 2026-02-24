@@ -58,12 +58,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Form Submission handling
+// Form Submission handling (Formspree will handle the submission)
+/*
 const contactForm = document.querySelector('.contact-form');
 if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        alert('Obrigado! Sua mensagem foi enviada (simulação).');
-        contactForm.reset();
+        // e.preventDefault(); // Commented to allow Formspree to work
+        // alert('Obrigado! Sua mensagem foi enviada (simulação).');
     });
 }
+*/

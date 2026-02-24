@@ -440,6 +440,17 @@ h3,
     border-radius: 12px;
 }
 
+.contact-link {
+    color: white;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.contact-link:hover {
+    color: var(--accent-color);
+    padding-left: 5px;
+}
+
 .contact-form {
     padding: 4rem;
 }
